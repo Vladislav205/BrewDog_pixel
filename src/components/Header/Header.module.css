@@ -1,0 +1,44 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4%;
+	flex-direction: column;
+	border-bottom: 5px solid #222831;
+	text-transform: uppercase;
+}
+
+.link,
+.link:link,
+.link:visited {
+	color: #222831;
+	text-decoration: none;
+	padding: 3vw;
+	font-weight: 600;
+	outline-color: #fff;
+	transition: all .2s;
+	display: inline-block;
+}
+
+.link:hover,
+.link:active,
+.link:focus {
+	outline-color: #3f3f40;
+	color: #fff;
+	background: #3f3f40;
+	box-shadow: 0 1rem 2rem rgba(0,0,0, .4);
+	transform: scale(1.3);
+}
+
+@media screen and (min-width: 600px) {
+	.header {
+		flex-direction: row;
+		padding: 0 2%;
+	}
+
+	.link,
+	.link:link,
+	.link:visited {
+		padding: 1vw;
+	}
+}

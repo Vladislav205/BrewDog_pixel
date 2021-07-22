@@ -1,0 +1,41 @@
+.details {
+  display: flex;
+  grid-template-columns: min-content 1fr;
+  grid-template-rows: repeat(4, min-content);
+  margin-top: 100px;
+  padding-bottom: 100%;
+  justify-content: center;
+}
+
+.img {
+	height: 400px;
+	grid-row: 1 / -1;
+	align-self: self-start;
+	justify-self: center;
+	margin: 15px 15px ;
+}
+
+.info {
+  margin-top: 15px;
+  margin-left: 30px;
+  color: #393e46;
+}
+.name{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.tagline{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.abv{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.description{
+  max-width: 800px;
+}
+.food{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
